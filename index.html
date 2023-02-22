@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+  <meta charset="UTF-8">
+  <title>ProtocoloWeb</title>
+  <link rel="icon" href="img/faviconV2.png">
+   <link rel="stylesheet" type="text/css" href="./style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+<body>
+	<div class="main"> 
+        <span class="logo1">
+            <img src="img/logo.png" alt="logo">
+        </span> 	
+				
+			<div class="login">
+                <form>
+                    <!--label>ProtocoloWeb</label>-->
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Senha" required="">
+					<button>Login</button>
+				</form>
+			</div>
+
+
+			
+	</div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>
+<footer class="footer">
+    Copyright©2023 Todos os Direitos Reservados GSTI Santa Casa
+</footer>
+
+</html>
